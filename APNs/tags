@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APNS_DEVICE_TOKEN	apns.h	9;"	d
+APNS_DEVICE_TOKEN_LEN	apns.h	15;"	d
+APNS_ENHANCED_NF	apns.h	5;"	d
+APNS_ERR_RES	apns.h	7;"	d
+APNS_EXPIRATION	apns.h	12;"	d
+APNS_EXPIRATION_LEN	apns.h	17;"	d
+APNS_H	apns.h	2;"	d
+APNS_IDENTIFIER	apns.h	11;"	d
+APNS_IDENTIFIER_LEN	apns.h	16;"	d
+APNS_INVALID_PAYLOAD_SIZE	apns.h	27;"	d
+APNS_INVALID_TOKEN	apns.h	28;"	d
+APNS_INVALID_TOKEN_SIZE	apns.h	25;"	d
+APNS_INVALID_TOPIC_SIZE	apns.h	26;"	d
+APNS_MISSING_DEVICE_TOKEN	apns.h	22;"	d
+APNS_MISSING_PAYLOAD	apns.h	24;"	d
+APNS_MISSING_TOPIC	apns.h	23;"	d
+APNS_MODERN_NF	apns.h	6;"	d
+APNS_NO_ERROR	apns.h	20;"	d
+APNS_PAYLOAD	apns.h	10;"	d
+APNS_PRIORITY	apns.h	13;"	d
+APNS_PRIORITY_LEN	apns.h	18;"	d
+APNS_PROCESSING_ERROR	apns.h	21;"	d
+APNS_SHUTDOWN	apns.h	29;"	d
+APNS_SIMPLE_NF	apns.h	4;"	d
+APNS_UNKNOWN	apns.h	30;"	d
+APNS_error	apns.h	/^}APNS_error;$/;"	t	typeref:struct:__anon3
+APNS_frame	apns.h	/^}APNS_frame;$/;"	t	typeref:struct:__anon2
+APNS_item	apns.h	/^}APNS_item;$/;"	t	typeref:struct:__anon1
+COPY_BYTES	apns.c	26;"	d	file:
+COPY_ITEM_TO_FRAME	apns.c	17;"	d	file:
+DUMP_APNS_DATA	apns.c	32;"	d	file:
+FILL_ITEM	apns.c	11;"	d	file:
+command	apns.h	/^  u_int8_t command;$/;"	m	struct:__anon2
+command	apns.h	/^  u_int8_t command;$/;"	m	struct:__anon3
+data	apns.h	/^  char *data;$/;"	m	struct:__anon2
+data	apns.h	/^  char data[2048];$/;"	m	struct:__anon1
+data_len	apns.h	/^  u_int16_t data_len;$/;"	m	struct:__anon1
+data_len	apns.h	/^  u_int32_t data_len;$/;"	m	struct:__anon2
+id	apns.h	/^  u_int8_t id;$/;"	m	struct:__anon1
+identifier	apns.h	/^  u_int32_t identifier;$/;"	m	struct:__anon3
+main	apns.c	/^int main(int argc, char *argv[])$/;"	f
+main	test.c	/^int main()$/;"	f
+make_apns_item	apns.c	/^int make_apns_item(APNS_item *apns_item, int item_id, char *item_data)$/;"	f
+make_apns_request	apns.c	/^int make_apns_request(char *device_token, char *payload, u_int32_t identifier, u_int32_t expiry, u_int8_t priority)$/;"	f
+proc_apns_req	apns.c	/^int proc_apns_req(char *read_buf, int bytes_read)$/;"	f
+status	apns.h	/^  u_int8_t status;$/;"	m	struct:__anon3
